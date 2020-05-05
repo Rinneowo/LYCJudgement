@@ -1,12 +1,12 @@
-package cn.lingyuncraft.lycjudgement;
+package cn.xfcraft.judgement;
 
 import org.bukkit.Bukkit;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class LYCJudgement extends JavaPlugin {
+public final class XFCraftJudgement extends JavaPlugin {
 
-    private static LYCJudgement instance;
+    private static XFCraftJudgement instance;
 
     public static String ban_command;
     public static double vote_up_player_percent;
@@ -46,7 +46,7 @@ public final class LYCJudgement extends JavaPlugin {
         command.setExecutor(new CommandExec());
     }
 
-    public static LYCJudgement getInstance() {
+    public static XFCraftJudgement getInstance() {
         return instance;
     }
 }
